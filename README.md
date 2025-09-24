@@ -1,17 +1,21 @@
+<p align="center">
+<img width="300" height="300" alt="Screenshot_4afsdfgdxg" src="https://github.com/user-attachments/assets/1f974e47-127f-4c6b-9510-fed33d10e5a1" />
+</p>
 
-## 📌 Sobre o Projeto API IBGE + Ruby puro
+
+## Sobre o Projeto API IBGE + Ruby puro
 
 Este projeto foi desenvolvido em **Ruby puro** (sem Rails ou frameworks), como parte da disciplina **Programação Avançada**.  
 
 A atividade proposta pedia que cada aluno criasse uma aplicação para:  
-✅ Praticar o consumo de **APIs REST** usando Ruby puro.  
-✅ Persistir dados em um banco **PostgreSQL**.  
-✅ Permitir consultas dos dados armazenados.  
-✅ Trabalhar com **orientação a objetos**.  
+* Praticar o consumo de **APIs REST** usando Ruby puro.  
+* Persistir dados em um banco **PostgreSQL**.  
+* Permitir consultas aos dados armazenados.  
+* Trabalhar com **orientação a objetos**.  
 
 ---
 
-## 💎 Gems Utilizadas
+## Gems Utilizadas
 
 1. **[pg](https://github.com/ged/ruby-pg)**  
    - Faz a conexão com o banco **PostgreSQL**.  
@@ -23,7 +27,7 @@ A atividade proposta pedia que cada aluno criasse uma aplicação para:
 
 ---
 
-## 🌐 API Utilizada
+## API Utilizada
 
 O projeto consome a **API de Países do IBGE**:  
 🔗 [Documentação oficial](https://servicodados.ibge.gov.br/api/docs/paises)  
@@ -38,18 +42,18 @@ O projeto consome a **API de Países do IBGE**:
 
 ---
 
-## ⚙️ Como Funciona
+## Como Funciona
 
-### 🔗 Conexão com o PostgreSQL
+### Conexão com o PostgreSQL
 - O projeto cria automaticamente a tabela `paises` dentro do banco configurado.  
 - Cada país é inserido apenas se não existir (verificação pelo código ISO2).  
 
-### 🌍 Consumo da API do IBGE
+### Consumo da API do IBGE
 - A API não retorna todos os países de uma vez.  
 - Por isso, o sistema consulta em **lotes de códigos ISO**.  
 - Cada país retornado é processado e formatado antes de ir para o banco.  
 
-### 📊 Consulta e Manipulação de Dados
+### Consulta e Manipulação de Dados
 - É possível **listar todos os países**.  
 - Também é possível **buscar por nome** e visualizar informações detalhadas como:  
   - Nome oficial  
@@ -63,7 +67,7 @@ O projeto consome a **API de Países do IBGE**:
 
 ---
 
-## 🚀 Modo de Usar
+## Modo de Usar
 
 ### Como consultar os dados guardados
 
@@ -103,13 +107,14 @@ ruby teste_api.rb
 
    * Listar todos os países (**opção 2**).
    * Buscar informações de um país pelo nome (**opção 3**).
-     Observação ao buscar pelo nome: se o país tiver acento no português
-     como é o caso da Austrália por exemplo, digite o nome com acento,
-     senão ele não vai encontrar.
+     <br><br>
+     **Observação ao buscar pelo nome:** <br>se o país tiver acento<br>
+     no português como é o caso da Austrália por exemplo,<br>
+     digite o nome com acento, senão ele não vai encontrar.
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 * `database_ibge.rb` → Conexão e manipulação do banco PostgreSQL.
 * `api_client.rb` → Consumo da API do IBGE e processamento dos dados.
@@ -119,9 +124,9 @@ ruby teste_api.rb
 
 ---
 
-## 📝 Observações
+## Observações
 
-* Projeto feito em **Ruby puro**, sem Rails.
+* Projeto feito em **Ruby puro**, sem o Rails.
 * Segue boas práticas de **orientação a objetos**.
 * Ideal para estudo de **APIs REST + PostgreSQL**.
 
