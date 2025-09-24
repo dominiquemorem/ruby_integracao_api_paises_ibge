@@ -83,27 +83,32 @@ git clone https://github.com/dominiquemorem/ruby_integracao_api_paises_ibge
 cd ruby_integracao_api_paises_ibge
 ```
 
-3. (Opcional) Abra no VS Code:
+3. Baixe as dependências do projeto:
+```bash
+bundle install 
+``` 
+
+5. (Opcional) Abra no VS Code:
 
 ```bash
 code .
 ```
 
-4. Rode a aplicação:
+5. Rode a aplicação:
 
 ```bash
 ruby main.rb
 ```
 
-5. No menu, escolha a opção **1** para popular os dados da API no banco.
+6. No menu, escolha a opção **1** para popular os dados da API no banco.
 
-6. Se der algum problema e não popular corretamente, rode o script de teste:
+7. Se der algum problema e não popular corretamente, rode o script de teste:
 
 ```bash
 ruby teste_api.rb
 ```
 
-7. Agora você pode:
+8. Agora você pode:
 
    * Listar todos os países (**opção 2**).
    * Buscar informações de um país pelo nome (**opção 3**).
