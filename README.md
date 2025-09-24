@@ -110,8 +110,8 @@ ruby teste_api.rb
      <br><br>
      **Observação ao buscar pelo nome:**
      <br>Se o país tiver acento no português como é o caso<br>
-     da Austrália por exemplo, digite o nome com acento,<br>
-     senão ele não vai encontrar.
+     da Austrália, Índia e Vietnã por exemplo, digite o nome<br>
+     com acento, senão ele não vai encontrar.
 
 ---
 
