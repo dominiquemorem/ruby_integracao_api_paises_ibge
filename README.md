@@ -108,9 +108,10 @@ ruby teste_api.rb
    * Listar todos os países (**opção 2**).
    * Buscar informações de um país pelo nome (**opção 3**).
      <br><br>
-     **Observação ao buscar pelo nome:** <br>se o país tiver acento<br>
-     no português como é o caso da Austrália por exemplo,<br>
-     digite o nome com acento, senão ele não vai encontrar.
+     **Observação ao buscar pelo nome:**
+     <br>Se o país tiver acento no português como é o caso<br>
+     da Austrália por exemplo, digite o nome com acento,<br>
+     senão ele não vai encontrar.
 
 ---
 
