@@ -93,7 +93,7 @@ ruby main.rb
 
 5. No menu, escolha a opção **1** para popular os dados da API no banco.
 
-6. Se der algum problema, rode o script de teste:
+6. Se der algum problema e não popular corretamente, rode o script de teste:
 
 ```bash
 ruby teste_api.rb
@@ -103,6 +103,9 @@ ruby teste_api.rb
 
    * Listar todos os países (**opção 2**).
    * Buscar informações de um país pelo nome (**opção 3**).
+     Observação ao buscar pelo nome: se o país tiver acento no português
+     como é o caso da Austrália por exemplo, digite o nome com acento,
+     senão ele não vai encontrar.
 
 ---
 
