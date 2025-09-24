@@ -1,6 +1,7 @@
 require 'pg'
 
 class DatabaseIBGE
+  
   DB_CONFIG = {
     host: "localhost",
     user: "postgres",
