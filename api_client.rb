@@ -4,6 +4,7 @@ require 'json'
 class ApiClient
 
   def self.buscar_paises
+
     puts "Buscando dados da API do IBGE..."
 
     todos_codigos = %w[
